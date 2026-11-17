@@ -87,6 +87,19 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 @media(max-width:710px){.wrap{width:min(calc(100% - 42px),var(--max))}.header{min-height:76px}.header nav{display:none}.hero{padding:75px 0 64px}.hero-grid{grid-template-columns:1fr;gap:42px}.hero h1{font-size:clamp(117px,23vw,210px)}.hero-image{max-width:510px;margin:auto;width:100%}.hero-image img{max-height:700px}.hero-intro{font-size:15px}.section-head{grid-template-columns:1fr;gap:25px}.section-head h2{font-size:clamp(53px,11vw,85px)}.cases,.ethos{grid-template-columns:1fr}.case,.case:last-child{grid-column:auto;min-height:310px}.case h3{font-size:clamp(48px,9vw,68px)}.closing{flex-direction:column;align-items:start}.footer{flex-direction:column;align-items:start}}
 @media(max-width:390px){.all-projects{font-size:9px;padding:9px 11px}.hero h1{font-size:clamp(100px,26vw,144px)}.caption{flex-direction:column;gap:5px}.features div{padding:21px 12px}.features strong{font-size:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+.artist-title{font-size:clamp(76px,9.1vw,148px)!important;letter-spacing:-.035em!important;line-height:.86;max-width:100%;overflow-wrap:normal}.artist-title>span{display:block}.artist-title .title-dot{display:inline;color:var(--sage)}
+#formatos-title{font-size:clamp(43px,6.4vw,84px)}#formatos-title em{font-size:.88em}
+.case:after{border-color:rgba(201,165,170,.13)}
+.pipeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:58px}
+.pipeline article{border:1px solid var(--line);padding:34px;background:var(--alt);min-width:0}
+.pipeline .step{color:var(--sage);font-size:11px;font-weight:800;letter-spacing:.16em}
+.pipeline h3{color:var(--cream);font-size:clamp(30px,3.4vw,44px);margin:20px 0}
+.pipeline p{color:var(--muted);font-size:14px;line-height:1.8}
+.role-note{border-left:2px solid var(--sage);padding:8px 0 8px 23px;margin-top:50px;color:var(--muted);font-size:14px;max-width:850px;line-height:1.8}
+.role-note strong{color:var(--cream)}
+@media(max-width:990px){.artist-title{font-size:clamp(76px,9vw,112px)!important}.pipeline article{padding:23px}}
+@media(max-width:710px){.artist-title{font-size:clamp(78px,16vw,120px)!important}#formatos-title{font-size:clamp(43px,8.2vw,65px)}.pipeline{grid-template-columns:1fr;gap:12px}.pipeline article{padding:28px}.pipeline h3{font-size:40px}}
+@media(max-width:390px){.artist-title{font-size:clamp(64px,17.5vw,80px)!important}#formatos-title{font-size:41px}.role-note{padding-left:16px}}
 </style>
 </head>
 <body id="inicio">
@@ -101,7 +114,7 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
   <div class="hero-grid">
     <div>
       <p class="eyebrow">CASO 08 / BELLEZA · DISEÑO · COMUNICACIÓN</p>
-      <h1 id="page-title">ARTIST MEDRANO.</h1>
+      <h1 id="page-title" class="artist-title"><span>ARTIST</span><span>MEDRANO<span class="title-dot">.</span></span></h1>
       <p class="hero-kicker">PELUQUERÍA · COLOR · TRATAMIENTOS</p>
       <p class="hero-claim">Belleza con<br><em>identidad.</em></p>
       <p class="hero-intro">Comunicación visual de servicios de peluquería y estética: piezas de color, tratamientos y herramientas de consulta que ponen en primer plano la experiencia de cada clienta.</p>
@@ -116,18 +129,27 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
   <div class="ethos" id="criterios"><article><span>01 / JERARQUÍA</span><h3>QUE SE LEA.</h3><p>Servicios y beneficios bien jerarquizados, con información técnica explicada sin promesas exageradas. Piezas legibles en pantalla pequeña.</p></article><article><span>02 / ATMÓSFERA</span><h3>QUE SE SIENTA.</h3><p>Imágenes de cabello, texturas y resultados para acompañar la comunicación sin desdibujar el aspecto real de los tratamientos.</p></article><article><span>03 / CONVERSIÓN</span><h3>QUE CONVOQUE.</h3><p>Cada pieza debe permitir comprender la propuesta y facilitar el paso a una consulta profesional.</p></article></div>
 </section>
 <section class="section wrap" id="formatos" aria-labelledby="formatos-title">
-  <div class="section-head"><p class="index">01 / CAMPAÑAS Y FORMATOS</p><div><h2 id="formatos-title">DISTINTAS NECESIDADES.<br><em>UNA MISMA MARCA.</em></h2><p>Tres ejes de trabajo en comunicación y experiencia de clientas. El prototipo digital se presenta como proyecto en desarrollo, no como plataforma terminada.</p></div></div>
+  <div class="section-head"><p class="index">01 / CAMPAÑAS Y FORMATOS</p><div><h2 id="formatos-title">DISTINTAS<br>NECESIDADES.<br><em>UNA MISMA<br>MARCA.</em></h2><p>Tres ejes que integran comunicación comercial y experiencia de atención. La imagen principal es una pieza de campaña; el prototipo digital se presenta como trabajo en desarrollo, no como plataforma terminada.</p></div></div>
   <div class="cases">
-    <article class="case"><div><small>EJE 01 · COLOR</small><h3>COLOR<br><em>CON CRITERIO.</em></h3><p>Campañas de color y propuestas de cambio de look, con énfasis en contraste, técnica y cuidado de la fibra capilar.</p></div><div class="end">CAMPAÑAS · COMUNICACIÓN VISUAL</div></article>
-    <article class="case"><div><small>EJE 02 · TRATAMIENTOS</small><h3>CUIDADO<br><em>CAPILAR.</em></h3><p>Comunicación de alternativas de hidratación, reparación y mantenimiento, con lenguaje comprensible y una estética consistente.</p></div><div class="end">SERVICIOS · CONTENIDO DIGITAL</div></article>
-    <article class="case"><div><small>EJE 03 · SISTEMA DIGITAL</small><h3>DIAGNÓSTICO<br><em>EN PROCESO.</em></h3><p>Diseño de un prototipo móvil para registrar clientas, responder preguntas técnicas y construir un historial de diagnósticos capilares.</p></div><div class="end">PROTOTIPO · EXPERIENCIA DE USUARIO</div></article>
+    <article class="case"><div><small>EJE 01 · COLOR</small><h3>COLOR<br><em>CON CRITERIO.</em></h3><p>Piezas para servicios de color, desde morena iluminada hasta mechas y correcciones. La comunicación prioriza la propuesta visual y el cuidado de la fibra capilar.</p></div><div class="end">CAMPAÑAS · COMUNICACIÓN VISUAL</div></article>
+    <article class="case"><div><small>EJE 02 · TRATAMIENTOS</small><h3>CUIDADO<br><em>CAPILAR.</em></h3><p>Jerarquización de servicios y líneas de cuidado para que cada clienta entienda la propuesta. Los resultados dependen del diagnóstico profesional individual.</p></div><div class="end">SERVICIOS · CONTENIDO DIGITAL</div></article>
+    <article class="case"><div><small>EJE 03 · SISTEMA DIGITAL</small><h3>DIAGNÓSTICO<br><em>EN PROCESO.</em></h3><p>Diseño y pruebas de un prototipo móvil: búsqueda de clientas, alta de registros, cuestionario técnico y consulta de antecedentes. La herramienta sigue en validación.</p></div><div class="end">PROTOTIPO · EXPERIENCIA DE USUARIO</div></article>
   </div>
 </section>
+<section class="section wrap" id="prototipo" aria-labelledby="prototipo-title">
+  <div class="section-head"><p class="index">02 / EXPERIENCIA DIGITAL</p><div><h2 id="prototipo-title">DEL SALÓN<br>AL <em>SISTEMA.</em></h2><p>El desafío no era crear otra placa: era organizar una consulta técnica en una interfaz móvil clara. El siguiente flujo resume el diseño funcional del prototipo en validación, sin mostrar datos personales de clientas.</p></div></div>
+  <div class="pipeline" aria-label="Flujo del prototipo de diagnóstico">
+    <article><span class="step">01 / IDENTIFICAR</span><h3>BUSCAR O CREAR.</h3><p>Encontrar una clienta por nombre o iniciar un nuevo registro con los datos básicos necesarios.</p></article>
+    <article><span class="step">02 / REGISTRAR</span><h3>DIAGNOSTICAR.</h3><p>Guiar el cuestionario técnico y el registro del estado de la fibra antes de decidir un servicio.</p></article>
+    <article><span class="step">03 / CONSULTAR</span><h3>VER HISTORIAL.</h3><p>Conservar las visitas anteriores como apoyo a la atención y abrir un nuevo diagnóstico cuando corresponda.</p></article>
+  </div>
+  <p class="role-note"><strong>Alcance del trabajo:</strong> comunicación visual, estructura de contenidos, diseño de experiencia móvil y prototipado. La evaluación capilar y las decisiones técnicas corresponden al equipo profesional del salón. <strong>Estado:</strong> piloto en pruebas, no producto terminado.</p>
+</section>
 <section class="section wrap" aria-labelledby="oficio-title">
-  <div class="section-head"><p class="index">02 / DISEÑO EN CONTEXTO</p><div><h2 id="oficio-title">MÁS QUE<br><em>UNA IMAGEN.</em></h2><p>El diseño también puede ordenar procesos: desde una campaña entendible hasta un formulario de diagnóstico con preguntas claras, navegación móvil y seguimiento por clienta.</p></div></div>
+  <div class="section-head"><p class="index">03 / DISEÑO EN CONTEXTO</p><div><h2 id="oficio-title">MÁS QUE<br><em>UNA IMAGEN.</em></h2><p>El diseño también puede ordenar procesos: desde una campaña entendible hasta un formulario de diagnóstico con preguntas claras, navegación móvil y seguimiento por clienta.</p></div></div>
   <div style="margin-top:68px"><p class="quote">“Un buen diseño no solo muestra un servicio: ayuda a <em>entenderlo y elegirlo.</em>”</p><p class="quote-credit">ENFOQUE DE DISEÑO / ARTIST MEDRANO 2026</p></div>
 </section>
-<section class="closing wrap"><div><p class="index">08 / 17 · PORTFOLIO PERSONAL</p><h2>DE LA IMAGEN<br>A <em>LA EXPERIENCIA.</em></h2><p>Un caso que integra comunicación visual y diseño de una herramienta de consulta en desarrollo, con foco en claridad, experiencia y criterio profesional.</p></div><a class="link" href="index.html#proyectos">VER MÁS PROYECTOS ↗</a></section>
+<section class="closing wrap"><div><p class="index">08 / 17 · PORTFOLIO PERSONAL</p><h2>DE LA IMAGEN<br>A <em>LA EXPERIENCIA.</em></h2><p>Un caso que combina piezas de comunicación visual con el prototipado de una herramienta para el salón. La siguiente etapa es incorporar más material final y documentar pruebas de uso, sin mostrar datos privados.</p></div><a class="link" href="index.html#proyectos">VER MÁS PROYECTOS ↗</a></section>
 </main>
 <footer class="footer wrap"><span>LUIS GERMÁN PARISOTTO · PORTFOLIO 2026</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
 </body></html>
