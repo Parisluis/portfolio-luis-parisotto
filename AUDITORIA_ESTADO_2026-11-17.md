@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (6):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html.
+**Existen (7):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html.
 
-**Faltan (11):** terzo.html, artist-medrano.html, metalar.html, liverpool.html, concilio-sarralde.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (10):** artist-medrano.html, metalar.html, liverpool.html, concilio-sarralde.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 11 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 10 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -41,3 +41,13 @@ Por tanto la portada tiene 11 enlaces internos a páginas inexistentes en la ram
 4. Probar móvil/tablet/escritorio.
 5. Optimizar peso, textos alternativos y metadatos.
 6. Revisar enlaces externos y CTA final (actualmente enlaza al sitio LSL Group, evaluar cambio a CV/contacto personal).
+
+
+## Caso TERZO — primera versión creada el 17/11/2026
+- `terzo.html` creado en `portfolio-preparacion`, verificado con lectura del repositorio.
+- Fotografía principal `assets/terzo/producto-tinto.webp` verificada. Se trata de contexto fotográfico y no demuestra por sí sola la autoría de trabajos de diseño.
+- Narrativa: comunicaciones para experiencias, pop-up Entre Quesos, Semana Italiana y encuentros de marca. No mostrar eventos de 2026 como vigentes.
+- Fotografías y piezas originales recuperadas de Drive y de trabajos previos: revisar versiones finales, fecha, crédito, contenido, promociones y autorización antes de incorporarlas.
+- ZIP local `terzo_piezas_para_auditoria.zip` incluye versiones optimizadas de Semana Italiana, Sabores de Italia y Cata de Quesos. Estas piezas **aún no están subidas al repositorio**; por tanto la página es un primer borrador editorial, no la presentación multimedia definitiva.
+- Pendiente importante: incluir las placas originales aprobadas con evidencia de diseño y verificar la visualización de la página en navegador.
+- No adjudicar el diseño del logotipo de Terzo a Luis.
