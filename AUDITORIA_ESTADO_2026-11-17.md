@@ -7,24 +7,27 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (5):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html.
+**Existen (6):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html.
 
-**Faltan (12):** tgt.html, terzo.html, artist-medrano.html, metalar.html, liverpool.html, concilio-sarralde.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (11):** terzo.html, artist-medrano.html, metalar.html, liverpool.html, concilio-sarralde.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 12 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 11 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
 - Mr John’s & Warhol: páginas y soportes de campañas, Mr Chef, Food Live, cartas, vinilos, espacio, fotografías y video. Faltan verificación visual y archivos multimedia.
 - 24 Street, Jummpark y Crazy Park: página presente. Requieren QA visual.
 
-## Próximo caso: TGT
-- La portada identifica el caso como Tienda Gráfica Textil / gráfica comercial y fachada, con `assets/tgt/frente-nuevo.webp`.
+## Caso TGT — primera versión creada el 17/11/2026
+- Página `tgt.html` creada y verificada en la rama; utiliza `assets/tgt/frente-nuevo.webp`, también verificado.
 - Preservar la **versión final aprobada del cartel**; NO reintroducir propuesta de fachada descartada.
 - Conservar diseño gráfico y aplicación real en pared; NO reincorporar el bloque «Fondo de prensa».
 - Evitar mockups repetidos. Mostrar claramente el antes/después sólo si se dispone de material fiable.
 - Etiquetar roles reales y no confundir fotografía o marca preexistente con autoría propia.
 - Comprobar la existencia y los derechos de cada recurso antes de enlazarlo.
+
+- La imagen disponible es **montaje digital de fachada**, no evidencia de instalación. Falta fotografía de ejecución real contrastada.
+- Borrador editorial pendiente de revisión visual en navegador y cotejo con la propuesta final aprobada.
 
 ## Otros acuerdos que deben conservarse
 - Concilio & Sarralde: logo preexistente como contexto, sin atribuir su diseño a Luis; mostrar brochure institucional y portada del informe Coca-Cola.
