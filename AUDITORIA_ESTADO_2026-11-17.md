@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (8):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html.
+**Existen (9):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html.
 
-**Faltan (9):** metalar.html, liverpool.html, concilio-sarralde.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (8):** metalar.html, liverpool.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 9 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 8 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -64,3 +64,11 @@ Por tanto la portada tiene 9 enlaces internos a páginas inexistentes en la rama
 - No fusionar con `main` mientras existan destinos enlazados sin página.
 - Solo hay una imagen de Terzo y una de Artist Medrano en el repositorio. Antes de sumar secciones de galería, incorporar y verificar originales finales.
 - Realizar prueba real en navegador a 360px, 390px, 768px y escritorio, pues la revisión estática del CSS no equivale a QA visual.
+
+## Caso CONCILIO & SARRALDE — actualización 17/11/2026
+- Página `concilio-sarralde.html` creada en rama de preparación. Enlace existente desde el índice.
+- Recurso `assets/concilio/pagina-1.webp` comprobado en listado de activos del repo.
+- Se localizaron y leyeron en Google Drive el brochure `C&S Brochure 12-09-23 N12-2.pdf` y la presentación `proyecto coca 5.pdf`, usados solo como referencia editorial; **no se publicaron completos**.
+- Caso enfocado en diagramación del brochure y diseño de presentación corporativa; logo anterior a la intervención, expresamente no atribuido a Luis.
+- La propuesta para Coca-Cola aparece contextualizada como presentación de Concilio & Sarralde; **no** se afirma trabajo directo de Luis para Coca-Cola.
+- Pendiente antes de dar por cerrado: comprobar portada visual, obtener selección de páginas internas autorizadas, exportarlas a webp y hacer QA real en navegador.
