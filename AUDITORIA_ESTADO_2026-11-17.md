@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (16):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html, cpa.html, cristo-b.html.
+**Existen (17):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html, cpa.html, cristo-b.html, super-ya.html.
 
-**Faltan (1):** super-ya.html.
+**Faltan (0):** ninguno.
 
-Por tanto la portada tiene 1 enlace interno a una página inexistente en la rama de preparación. **Bloqueante para publicar.**
+Por tanto los 17 destinos de la portada tienen archivos creados en la rama de preparación. La validación funcional y visual en navegador sigue pendiente; **esto no equivale a aprobar la publicación**.
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -130,3 +130,16 @@ Por tanto la portada tiene 1 enlace interno a una página inexistente en la rama
 - Se omiten precios y teléfonos históricos. La organización de categorías es un resumen editorial del portfolio, no una página original de la carta.
 - No se afirma autoría de los logotipos, ni resultados comerciales, ni publicaciones efectivas sin evidencia adicional.
 - Pendiente: exportar y revisar imágenes reales de páginas de carta y elementos de mesa; verificar créditos y realizar QA visual responsive.
+
+## Caso SUPER YA — actualización 17/11/2026
+- Creada `super-ya.html` en rama `portfolio-preparacion`, verificada mediante lectura del repositorio; la portada enlazaba previamente a la ruta.
+- Imagen existente: `assets/super-ya/identidad.webp` (1800×1800 según portada; 538.810 bytes).
+- Drive: `SUPER YA Porfolio.pdf`, `Super Ya Revista junio`, `Revista Superya Junio.pdf` y `superya gift card impr.pdf`. Texto de la revista y gift card revisado; archivo de portfolio sin extracción textual en esta lectura.
+- Caso centrado en catálogo de ofertas, llamados QR y gift card impresa. Sorteo y promociones son **históricos, junio de 2022** y no aparecen como vigentes.
+- Un esquema de categorías se etiqueta como editorial, no como reproducción original. Faltan capturas de páginas finales y comprobación de créditos antes de publicación.
+
+## Cierre de estructura inicial — 17/11/2026
+- Se completaron los 17 HTML previstos en la rama de trabajo. El índice contiene una tarjeta por proyecto con `href` destinado a cada archivo.
+- Este avance confirma **cobertura estructural**, no que los 17 casos estén listos para presentarse a reclutadores.
+- Siguiente fase: revisión de enlaces y assets, evaluación visual real en anchos móviles/tablet/desktop, selección de muestras originales y valoración editorial de qué casos merecen máxima prominencia.
+- Mantener `main` sin fusionar hasta resolver los problemas críticos.
