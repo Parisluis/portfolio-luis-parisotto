@@ -179,3 +179,12 @@ Por tanto los 17 destinos de la portada tienen archivos creados en la rama de pr
 - **Publicación:** `main` y GitHub Pages no modificados; no hubo borrado ni fusión de ramas.
 
 **Registro de cambios:** commit `6483bccb2625dfe322acc6947d543a5437bf853a` aplicado en `portfolio-preparacion`. Auditoría parcial, no aprobación final de publicación.
+
+## Evidencias visuales: Metalar — 18/11/2026
+- Dos recursos históricos reales recuperados desde Drive, inspeccionados y añadidos **solo a `portfolio-preparacion`**:
+  - `assets/metalar/web-corporativa-archivo.jpg`: captura de una web corporativa histórica (archivo Drive `web metalar.png`, codificación JPEG). Créditos no verificados para desarrollo web, se utiliza como contexto documental y **no se atribuye** la autoría del sitio.
+  - `assets/metalar/grafica-redes-agua-telecom.png`: pieza gráfica histórica de categoría de productos, de la carpeta METALAR.
+- `metalar.html` incluye ambas en galería con `object-fit:contain`, carga diferida, textos alternativos y leyendas de archivo.
+- Verificado que las 3 rutas de imagen usadas por el caso existen en el árbol del commit `61c368a47ed0036e83931abaf2ca59961768d70f`; no se alteró el render de la portada aprobado.
+- Pendiente: comprobar en navegador responsive, verificar si la muestra histórica de la web aporta valor editorial suficiente frente al brochure, y seleccionar páginas finales autorizadas del brochure 2013 para reforzar autoría gráfica.
+- Los archivos originales del Drive no se modificaron. `main` y la publicación siguen intactos.
