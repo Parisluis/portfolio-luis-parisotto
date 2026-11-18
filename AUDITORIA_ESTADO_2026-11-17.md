@@ -143,3 +143,12 @@ Por tanto los 17 destinos de la portada tienen archivos creados en la rama de pr
 - Este avance confirma **cobertura estructural**, no que los 17 casos estén listos para presentarse a reclutadores.
 - Siguiente fase: revisión de enlaces y assets, evaluación visual real en anchos móviles/tablet/desktop, selección de muestras originales y valoración editorial de qué casos merecen máxima prominencia.
 - Mantener `main` sin fusionar hasta resolver los problemas críticos.
+
+## Auditoría detallada 24 STREET — 17/11/2026 (fase 2)
+- Revisado HTML, CSS, JS y listado completo de assets de `assets/24`.
+- `24-street.html`: corregidos 7 textos alternativos, entre ellos logo blanco erróneamente descrito como neón, descripción de sucursales y accesos QR.
+- `24-street.js`: lightbox ahora agrupa su recorrido por sección HTML y actualiza el contador según la sección; no mezcla identidad, sedes, packaging y menús.
+- Verificación estática de assets enlazados desde 24 Street: 53 referencias, 35 rutas distintas, faltantes: 0.
+- Dos vídeos (sucursal Centro y campaña temática) y 23 controles de ampliación. Archivo JS y CSS locales encontrados. No se ha ejecutado auditoría visual de navegador ni pruebas reales de interacción: cambios pendientes de ese QA.
+- Problema editorial por revisar: varias fotografías reales y piezas promocionales históricas comparten espacio; comprobar proporción, aire y orden sin ocultar materiales, y evaluar si conviene reducir duplicaciones de sedes.
+- No se alteró `main`. No fusionar hasta QA responsive (360/390/768/1440) y contraste, teclado/lightbox, videos y disponibilidad del PDF histórico.
