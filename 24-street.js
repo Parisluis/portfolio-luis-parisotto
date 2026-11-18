@@ -53,19 +53,26 @@
   const large=dialog.querySelector('img');
   const caption=dialog.querySelector('.lightbox-caption');
   const counter=dialog.querySelector('.lightbox-count');
+  // Keep each lightbox journey inside its own editorial section.
   const cards=Array.from(document.querySelectorAll('.enlarge'));
+  let gallery=cards;
   let active=0;let trigger=null;
   function showItem(index){
-    active=(index+cards.length)%cards.length;
-    const card=cards[active];
+    if (!gallery.length) return;
+    active=(index+gallery.length)%gallery.length;
+    const card=gallery[active];
     const thumb=card.querySelector('img');
     large.src=card.dataset.full||thumb.currentSrc||thumb.src;
     large.alt=thumb.alt;
     caption.textContent=card.dataset.caption||thumb.alt;
-    counter.textContent=`${String(active+1).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`;
+    counter.textContent=`${String(active+1).padStart(2,'0')} / ${String(gallery.length).padStart(2,'0')}`;
   }
-  cards.forEach((card,index)=>card.addEventListener('click',()=>{
-    trigger=card;showItem(index);dialog.showModal();
+  cards.forEach(card=>card.addEventListener('click',()=>{
+    trigger=card;
+    const section=card.closest('section');
+    gallery=cards.filter(item=>item.closest('section')===section);
+    showItem(gallery.indexOf(card));
+    dialog.showModal();
   }));
   dialog.querySelector('.close-lightbox').addEventListener('click',()=>dialog.close());
   dialog.querySelector('.lightbox-prev').addEventListener('click',()=>showItem(active-1));
