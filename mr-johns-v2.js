@@ -6,17 +6,29 @@
   const counter=modal.querySelector('.viewer-count');
   const buttons=[...document.querySelectorAll('button.zoom')];
   const close=modal.querySelector('.close');
+  // Each content series stays together in the viewer.
+  const groupSelector='.experience-one, .food-live, .campaign-section, .menu-section, .space-section, .gallery-section';
+  const groupOf=button=>button.closest(groupSelector)||button.closest('section');
+  let gallery=buttons;
   let index=0;
   let origin=null;
   function present(i){
-    index=(i+buttons.length)%buttons.length;
-    const b=buttons[index];const full=b.getAttribute('data-full');
-    img.src=full;img.alt=b.querySelector('img')?.alt||'Pieza visual ampliada';
-    caption.textContent=b.getAttribute('data-caption')||'';
-    counter.textContent=`${index+1} / ${buttons.length}`;
+    if(!gallery.length)return;
+    index=(i+gallery.length)%gallery.length;
+    const b=gallery[index];
+    const full=b.getAttribute('data-full');
+    img.src=full;
+    img.alt=b.querySelector('img')?.alt||'Pieza visual ampliada';
+    caption.textContent=b.getAttribute('data-caption')||img.alt;
+    counter.textContent=`${index+1} / ${gallery.length}`;
   }
-  buttons.forEach((button,i)=>button.addEventListener('click',()=>{
-    origin=button;present(i);modal.showModal();close.focus();
+  buttons.forEach(button=>button.addEventListener('click',()=>{
+    origin=button;
+    const group=groupOf(button);
+    gallery=buttons.filter(item=>groupOf(item)===group);
+    present(gallery.indexOf(button));
+    modal.showModal();
+    close.focus();
   }));
   modal.querySelector('.previous').addEventListener('click',()=>present(index-1));
   modal.querySelector('.next').addEventListener('click',()=>present(index+1));
