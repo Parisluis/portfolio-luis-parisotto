@@ -152,3 +152,14 @@ Por tanto los 17 destinos de la portada tienen archivos creados en la rama de pr
 - Dos vídeos (sucursal Centro y campaña temática) y 23 controles de ampliación. Archivo JS y CSS locales encontrados. No se ha ejecutado auditoría visual de navegador ni pruebas reales de interacción: cambios pendientes de ese QA.
 - Problema editorial por revisar: varias fotografías reales y piezas promocionales históricas comparten espacio; comprobar proporción, aire y orden sin ocultar materiales, y evaluar si conviene reducir duplicaciones de sedes.
 - No se alteró `main`. No fusionar hasta QA responsive (360/390/768/1440) y contraste, teclado/lightbox, videos y disponibilidad del PDF histórico.
+
+## Auditoría de QUÉ MILA, BOBO! — 17/11/2026 (fase 2)
+- Releídos `que-mila-bobo.html`, `qmb.css`, `qmb.js` y listado de recursos en `assets/`.
+- Resultado de revisión estática: 8 recursos distintos en atributos HTML, faltantes en carpeta raíz: 0 .
+- La presentación cuenta con logotipo, propuesta conceptual, fotografía real diurna y nocturna, carta y teaser de inauguración. No se halló packaging publicado en la carpeta de assets de este caso: **no afirmar que ya se muestra packaging**.
+- Distinción de autoría conservada: logotipo y propuesta gráfica de Luis; interpretación y ejecución del mural por artista colaborador.
+- Comparación con perspectivas no equivalentes: reforzada la nota de que se trata de **comparación editorial, no antes/después fotográfico exacto**; etiquetas y control de rango con descripción accesible.
+- En `qmb.js`, los diálogos devuelven el foco al botón activador al cerrarse, tanto en imágenes como en vídeo.
+- Drive: halladas carpetas de QMB con vídeos y fotografías originales de evento, pedidos y productos. No se incorporó contenido sin revisión visual y selección editorial.
+- Pendientes: prueba real de navegador a 360/390/768/1440, verificar visibilidad de etiquetas de comparación con cada extremo, contrastes, simulación móvil y ejecución de controles, además de resolver potenciales sesgos de mostrar perspectivas distintas superpuestas.
+- `main` sigue sin cambios.
