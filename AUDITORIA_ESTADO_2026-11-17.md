@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (12):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html.
+**Existen (13):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html.
 
-**Faltan (5):** liverpool.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (4):** liverpool.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 5 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 4 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -97,3 +97,11 @@ Por tanto la portada tiene 5 enlaces internos a páginas inexistentes en la rama
 - La sección de arquitectura de información es un esquema textual propio, claramente rotulado como tal, no una captura del sitio original.
 - Pendiente para caso visual definitivo: exportar capturas reales de las páginas HTML y verificar activos originales, incluyendo CSS/JS/imagenes y referencias externas; probar vista móvil/escritorio.
 - No se publicaron enlaces a números de contacto o promociones de un archivo histórico; no afirmar patente, certificaciones o resultados comerciales sin verificación.
+
+## Caso COCINEROS TUCUMANOS — actualización 17/11/2026
+- Página `cocineros-tucumanos.html` creada y verificada en rama `portfolio-preparacion`; enlace ya existente desde portada.
+- Asset existente comprobado: `assets/cocineros/marca.webp` (1024×1024), usado como contexto institucional, sin adjudicar autoría del logotipo.
+- Drive: carpeta `Cocineros Tucumanos` (`1ggHcIUMRWBEgaV8mVwK1iDN0x2vrotCg`) con logos institucionales, auspiciantes y carpeta «Día del Cocinero casa Padilla»; no se recuperaron placas de campañas definitivas.
+- Narrativa de experiencias vinculadas a Casa Padilla, Día de la Tradición/Casa Belgraniana y Fiesta Nacional del Sánguche de Milanesa; eventos de 2026 presentados como antecedentes, no convocatorias vigentes.
+- Cuadro de arquitectura informativa rotulado como esquema editorial, no pieza original.
+- Pendientes: ubicar placas finales, verificar créditos de logos/fotografías, incorporar ejemplos reales y hacer control visual responsive.
