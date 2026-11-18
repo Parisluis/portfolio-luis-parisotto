@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (13):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html.
+**Existen (14):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html.
 
-**Faltan (4):** liverpool.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (3):** cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 4 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 3 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -105,3 +105,11 @@ Por tanto la portada tiene 4 enlaces internos a páginas inexistentes en la rama
 - Narrativa de experiencias vinculadas a Casa Padilla, Día de la Tradición/Casa Belgraniana y Fiesta Nacional del Sánguche de Milanesa; eventos de 2026 presentados como antecedentes, no convocatorias vigentes.
 - Cuadro de arquitectura informativa rotulado como esquema editorial, no pieza original.
 - Pendientes: ubicar placas finales, verificar créditos de logos/fotografías, incorporar ejemplos reales y hacer control visual responsive.
+
+## Caso LIVERPOOL ROOFTOP — actualización 17/11/2026
+- Página `liverpool.html` creada y verificada en `portfolio-preparacion`; enlace previamente incluido en portada.
+- Asset `assets/liverpool/ambiente.webp` comprobado en repo (600×338 según la portada). Imagen de propuesta de ambientación, **no** fotografía de ejecución real.
+- Drive: se encontraron `Liverpool Render Carta.pdf` (texto no extraíble en esta lectura) y varias versiones de `LiverMenu.pdf` con contenido editorial verificable. También aparecieron dos logos Liverpool Rooftop en versiones distintas.
+- El caso incorpora relato de concepto, ambientación y carta estilo periódico «Liverpool News / All British Menu». La muestra de periódico es un **esquema editorial propio**, no una reproducción de la carta original.
+- No se publican precios históricos ni PDFs completos. Faltan vistas originales seleccionadas de la carta y del render y atribución detallada antes de completar la galería.
+- Pendiente QA visual en dispositivos y aprobación de muestras reales. No confundir render con ambiente construido.
