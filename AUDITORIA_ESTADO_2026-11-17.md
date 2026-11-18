@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (14):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html.
+**Existen (15):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html, cpa.html.
 
-**Faltan (3):** cpa.html, cristo-b.html, super-ya.html.
+**Faltan (2):** cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 3 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 2 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -113,3 +113,11 @@ Por tanto la portada tiene 3 enlaces internos a páginas inexistentes en la rama
 - El caso incorpora relato de concepto, ambientación y carta estilo periódico «Liverpool News / All British Menu». La muestra de periódico es un **esquema editorial propio**, no una reproducción de la carta original.
 - No se publican precios históricos ni PDFs completos. Faltan vistas originales seleccionadas de la carta y del render y atribución detallada antes de completar la galería.
 - Pendiente QA visual en dispositivos y aprobación de muestras reales. No confundir render con ambiente construido.
+
+## Caso CPA — actualización 17/11/2026
+- Página `cpa.html` creada y verificada en rama `portfolio-preparacion`; ruta previamente enlazada desde `index.html`.
+- Asset real comprobado: `assets/cpa/diapositiva-1.webp` (1600×900 según portada), usado como evidencia visual de presentación.
+- Documentación de Drive revisada: `Presentacion CPA Sistema de Credito.pptx`, `Cys CPA Sistemade Creditos 4.pptx`, `Cys CPA Sistemade Creditos 3 (1).pptx`, además de presentaciones distintas de red de pagos. No se mezclaron los dos proyectos.
+- Enfoque: tratamiento gráfico y diseño editorial de presentación conceptual de sistema de créditos para Caja Popular de Ahorros. No se afirma construcción, operación ni despliegue del software.
+- Se detectaron contenido provisional y marcadores incompletos en fuentes, que no se publicaron como resultados terminados. Esquema de módulos presentado como síntesis editorial, no como diagrama técnico real.
+- Pendientes: revisar diapositivas adicionales aptas para publicación y créditos, incorporar muestra visual de varias páginas y QA responsive navegador.
