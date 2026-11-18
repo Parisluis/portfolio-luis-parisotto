@@ -97,6 +97,22 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 @media(max-width:720px){.wrap{width:min(calc(100% - 42px),var(--max))}.header{min-height:76px}.header nav{display:none}.back{padding:10px 12px;font-size:9px}.hero{padding:72px 0}.hero-grid,.section-head,.paper-grid{grid-template-columns:1fr}.hero-grid{gap:42px}.hero h1{font-size:clamp(73px,12.9vw,110px)}.hero-image{max-width:560px}.section-head h2,.paper h2{font-size:clamp(52px,11vw,83px)}.three,.cards,.paper-chips{grid-template-columns:1fr}.card,.card:last-child{grid-column:auto;min-height:302px}.card h3{font-size:53px}.paper-grid{gap:22px}.closing{flex-direction:column;align-items:start}.footer{flex-direction:column;align-items:start}}
 @media(max-width:390px){.hero h1{font-size:clamp(65px,14.2vw,75px)}.ribbon-grid div{padding:20px 12px}.ribbon-grid strong{font-size:12px}.hero-image{padding:13px}.caption{font-size:9px}.card h3{font-size:48px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Evidencias visuales originales: proporciones intactas, sin recortar el material. */
+.archive-gallery{padding:clamp(78px,10vw,132px) 0;border-bottom:1px solid var(--line)}
+.archive-gallery__intro{max-width:850px}
+.archive-gallery__intro h2{font-size:clamp(49px,7vw,94px);margin:24px 0;letter-spacing:-.03em}
+.archive-gallery__intro h2 em{color:var(--accent)}
+.archive-gallery__intro p:last-child{color:var(--muted);line-height:1.85;max-width:760px}
+.archive-gallery__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:clamp(22px,3.6vw,44px);margin-top:52px}
+.archive-gallery__item{margin:0;min-width:0}
+.archive-gallery__frame{background:var(--panel);border:1px solid var(--line);padding:clamp(12px,2.4vw,26px)}
+.archive-gallery__frame img{width:100%;height:auto;object-fit:contain;max-height:750px}
+.archive-gallery__item figcaption{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-top:13px;color:var(--muted);font-size:10px;letter-spacing:.08em;font-weight:700;line-height:1.6}
+.archive-gallery__item figcaption strong{color:var(--accent)}
+.archive-gallery__note{max-width:850px;margin-top:34px;color:var(--muted);font-size:12px;line-height:1.8}
+@media(max-width:680px){.archive-gallery__grid{grid-template-columns:1fr;gap:35px}.archive-gallery__frame img{max-height:none}.archive-gallery__intro h2{font-size:clamp(48px,11vw,78px)}}
+
 </style>
 </head>
 <body id="inicio">
@@ -150,9 +166,18 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 <article><h3>COCINA.</h3><p>Entradas, platos regionales, carnes, pastas, pizzas y otras categorías.</p></article>
 <article><h3>BEBIDAS.</h3><p>Limonadas, jugos, licuados y demás opciones de la carta.</p></article>
 </div>
-<p class="paper-note">El cuadro es un resumen de categorías extraído del documento, no una reconstrucción visual de una página real. Los precios y datos de contacto históricos se omiten para evitar que parezcan información vigente.</p>
+<p class="paper-note">El cuadro es un resumen de categorías extraído del documento, no una reconstrucción visual de una página real. Las muestras originales conservan algunos precios y datos de contacto históricos de 2024–2025: son únicamente archivo gráfico, no información comercial vigente.</p>
 </div>
 </div>
+</section>
+<section class="archive-gallery wrap" id="originales" aria-labelledby="originales-title">
+<div class="archive-gallery__intro"><p class="index">MUESTRAS DOCUMENTALES / TRABAJOS ORIGINALES</p><h2 id="originales-title">EL TRABAJO<br><em>EN PIEZAS REALES.</em></h2><p>Selección de páginas y aplicaciones extraídas de los archivos originales de diseño. Se muestran como antecedentes profesionales, conservando su apariencia gráfica original.</p></div>
+<div class="archive-gallery__grid">
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/cristo-b/cristo-b-carta-portada-2025.webp" alt="Primera página original de carta Cristo B enero de 2025 con cafetería y brunch" loading="lazy" decoding="async" width="1260" height="1782"></div><figcaption><strong>01 / CARTA</strong><span>CRISTO B · CARTA 2025</span></figcaption></figure>
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/cristo-b/cristo-b-carta-interior-2025.webp" alt="Segunda página original de carta Cristo B enero de 2025" loading="lazy" decoding="async" width="1260" height="1782"></div><figcaption><strong>02 / INTERIOR</strong><span>JERARQUÍA DE CATEGORÍAS · CARTA 2025</span></figcaption></figure>
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/cristo-b/cristo-b-humita-individual-2024.webp" alt="Gráfica de promoción de humita Cristo B 2024" loading="lazy" decoding="async" width="1260" height="1782"></div><figcaption><strong>03 / PROMOCIÓN</strong><span>CRISTO B · PIEZA DE ARCHIVO 2024</span></figcaption></figure>
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/cristo-b/cristo-b-puerto-qr-2025.webp" alt="Aplicaciones impresas originales de Cristo B y Puerto Argentino con códigos QR" loading="lazy" decoding="async" width="765" height="810"></div><figcaption><strong>04 / APLICACIONES</strong><span>CRISTO B Y PUERTO ARGENTINO · 2025</span></figcaption></figure>
+</div><p class="archive-gallery__note">Material de archivo: fechas, precios, promociones, direcciones, redes sociales y códigos QR impresos pertenecen a ediciones anteriores y no deben interpretarse como vigentes. Las muestras no implican autoría de logotipos ni resultados comerciales.</p>
 </section>
 <section class="section wrap" id="autoria" aria-labelledby="autoria-title">
 <div class="section-head"><p class="index">03 / ESTADO Y AUTORÍA</p><div><h2 id="autoria-title">DISEÑO Y<br><em>APLICACIONES.</em></h2><p>Este caso representa principalmente diseño editorial y aplicaciones gráficas: cartas, piezas de mesa y material comercial. La carpeta de trabajo conserva archivos editables de CorelDRAW y exportaciones PDF que permiten rastrear revisiones. La presencia de un logotipo en el proyecto no prueba por sí sola su creación.</p></div></div>
