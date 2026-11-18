@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (9):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html.
+**Existen (10):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html.
 
-**Faltan (8):** metalar.html, liverpool.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (7):** liverpool.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 8 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 7 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -72,3 +72,11 @@ Por tanto la portada tiene 8 enlaces internos a páginas inexistentes en la rama
 - Caso enfocado en diagramación del brochure y diseño de presentación corporativa; logo anterior a la intervención, expresamente no atribuido a Luis.
 - La propuesta para Coca-Cola aparece contextualizada como presentación de Concilio & Sarralde; **no** se afirma trabajo directo de Luis para Coca-Cola.
 - Pendiente antes de dar por cerrado: comprobar portada visual, obtener selección de páginas internas autorizadas, exportarlas a webp y hacer QA real en navegador.
+
+## Caso METALAR — actualización 17/11/2026
+- Creada y verificada `metalar.html` en `portfolio-preparacion`; enlace ya incluido desde portada.
+- Archivo original de Drive localizado: `BRUCHER METALAR 2013 compaginado final.pdf` y versiones previas de 2012/2013, además de folletos y carpeta audiovisual.
+- Imagen de archivo disponible en repo: `assets/metalar/portada-fundicion.webp` (368×216, 7.630 bytes). Es un fotograma contextual, **no** prueba por sí mismo del trabajo editorial.
+- Página provisional con relato de brochure, folletos técnicos y material audiovisual; esquema de contenido señalado explícitamente como ilustrativo y no como pieza original.
+- Sin reproducción de PDF completos ni inserción de videos no revisados. Verificar autoría, versiones y permisos antes de publicar muestras reales del folleto o video.
+- Próxima tarea prioritaria: exportar imágenes de páginas concretas del brochure final y validarlas con referencia al archivo fuente. Requiere QA de diseño móvil/escritorio.
