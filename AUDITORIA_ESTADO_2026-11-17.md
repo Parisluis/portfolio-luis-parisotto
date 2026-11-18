@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (15):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html, cpa.html.
+**Existen (16):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, liverpool.html, cpa.html, cristo-b.html.
 
-**Faltan (2):** cristo-b.html, super-ya.html.
+**Faltan (1):** super-ya.html.
 
-Por tanto la portada tiene 2 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 1 enlace interno a una página inexistente en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -121,3 +121,12 @@ Por tanto la portada tiene 2 enlaces internos a páginas inexistentes en la rama
 - Enfoque: tratamiento gráfico y diseño editorial de presentación conceptual de sistema de créditos para Caja Popular de Ahorros. No se afirma construcción, operación ni despliegue del software.
 - Se detectaron contenido provisional y marcadores incompletos en fuentes, que no se publicaron como resultados terminados. Esquema de módulos presentado como síntesis editorial, no como diagrama técnico real.
 - Pendientes: revisar diapositivas adicionales aptas para publicación y créditos, incorporar muestra visual de varias páginas y QA responsive navegador.
+
+## Caso CRISTO B / PUERTO ARGENTINO — actualización 17/11/2026
+- Se creó y verificó `cristo-b.html` en la rama `portfolio-preparacion` y la portada ya enlaza esa ruta.
+- En el repositorio se verificó `assets/cristo-b/marcas.webp` (662×697 según portada), única evidencia visual subida en ese proyecto.
+- En Drive se halló la carpeta `CRISTO B` con numerosos originales editables de cartas CorelDRAW, PDFs de varias ediciones, portacódigos QR, tarjetas y vouchers. Se leyó carta PDF y los documentos de texto.
+- Para Puerto Argentino se localizó una pieza compartida `cristo b y puerto.pdf` pero menos documentación específica; la página otorga mayor peso editorial a Cristo B.
+- Se omiten precios y teléfonos históricos. La organización de categorías es un resumen editorial del portfolio, no una página original de la carta.
+- No se afirma autoría de los logotipos, ni resultados comerciales, ni publicaciones efectivas sin evidencia adicional.
+- Pendiente: exportar y revisar imágenes reales de páginas de carta y elementos de mesa; verificar créditos y realizar QA visual responsive.
