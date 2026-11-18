@@ -9,19 +9,25 @@
   const close = dialog.querySelector('.lightbox-close');
   const prev = dialog.querySelector('.lightbox-prev');
   const next = dialog.querySelector('.lightbox-next');
+  // Keep identities, concept/installation, experiences and Crazy Spa separate.
+  const groupOf = button => button.closest('.identity-grid, .comparison, .feature-grid, .space-grid, .spa-grid') || button.closest('section');
+  let gallery = triggers;
   let current = -1;
   let lastFocused = null;
   const render = index => {
-    current = (index + triggers.length) % triggers.length;
-    const button = triggers[current];
+    if (!gallery.length) return;
+    current = (index + gallery.length) % gallery.length;
+    const button = gallery[current];
     display.src = button.dataset.full;
     display.alt = button.querySelector('img')?.alt || 'Imagen ampliada del proyecto';
     caption.textContent = button.dataset.caption || '';
-    counter.textContent = `${current + 1} / ${triggers.length}`;
+    counter.textContent = `${current + 1} / ${gallery.length}`;
   };
-  triggers.forEach((button, i) => button.addEventListener('click', () => {
+  triggers.forEach(button => button.addEventListener('click', () => {
     lastFocused = button;
-    render(i);
+    const group = groupOf(button);
+    gallery = triggers.filter(item => groupOf(item) === group);
+    render(gallery.indexOf(button));
     dialog.showModal();
     close.focus();
   }));

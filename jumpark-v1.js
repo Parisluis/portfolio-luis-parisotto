@@ -4,20 +4,29 @@ document.addEventListener('DOMContentLoaded', () => {
   const caption = document.getElementById('lightbox-caption');
   const count = document.getElementById('lightbox-counter');
   const entries = Array.from(document.querySelectorAll('[data-full]'));
+  // Group the viewer by visual theme; the archives are separate stories.
+  const groupOf = button => button.closest('.archive, .identity-pair') || button.closest('section');
+  let gallery = entries;
   let current = 0;
   let opener = null;
   function show(index) {
-    current = (index + entries.length) % entries.length;
-    const button = entries[current];
+    if (!gallery.length) return;
+    current = (index + gallery.length) % gallery.length;
+    const button = gallery[current];
     image.src = button.dataset.full;
     image.alt = button.dataset.caption || button.getAttribute('aria-label') || 'Pieza ampliada';
     caption.textContent = button.dataset.caption || '';
-    count.textContent = `${current + 1} / ${entries.length}`;
+    count.textContent = `${current + 1} / ${gallery.length}`;
   }
-  entries.forEach((button, index) => button.addEventListener('click', () => {
+  entries.forEach(button => button.addEventListener('click', () => {
     opener = button;
-    show(index);
-    if (typeof dialog.showModal === 'function') dialog.showModal();
+    const group = groupOf(button);
+    gallery = entries.filter(item => groupOf(item) === group);
+    show(gallery.indexOf(button));
+    if (typeof dialog.showModal === 'function') {
+      dialog.showModal();
+      dialog.querySelector('.lightbox-close')?.focus();
+    }
   }));
   dialog.querySelector('.lightbox-close').addEventListener('click', () => dialog.close());
   dialog.querySelector('.lightbox-prev').addEventListener('click', () => show(current - 1));
