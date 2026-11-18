@@ -163,3 +163,19 @@ Por tanto los 17 destinos de la portada tienen archivos creados en la rama de pr
 - Drive: halladas carpetas de QMB con vídeos y fotografías originales de evento, pedidos y productos. No se incorporó contenido sin revisión visual y selección editorial.
 - Pendientes: prueba real de navegador a 360/390/768/1440, verificar visibilidad de etiquetas de comparación con cada extremo, contrastes, simulación móvil y ejecución de controles, además de resolver potenciales sesgos de mostrar perspectivas distintas superpuestas.
 - `main` sigue sin cambios.
+
+## Auditoría transversal autorizada — 17/11/2026
+
+**Alcance:** Jumpark, Crazy Park, TGT, Terzo, Artist Medrano, Concilio & Sarralde, Metalar, Adán Reymundo, Vigamix, Cocineros Tucumanos, Liverpool, CPA, Cristo B/Puerto Argentino y Super Ya.
+
+- Validación estructural de **14/14 páginas HTML**: todos los enlaces internos de navegación, archivos CSS/JS y recursos locales referenciados existen en la rama. Cero destinos rotos en esta comprobación estática. Los 14 HTML incluyen `viewport` y un único encabezado principal; no se encontraron imágenes sin atributo `alt`.
+- **Jumpark y Crazy Park:** galerías de ampliación agrupadas por serie/tema para evitar navegar sin contexto entre piezas; conservan cierre de diálogo, teclas de avance y devolución de foco. Cambios guardados en `jumpark-v1.js` y `crazy-park-v1.js`.
+- **Artist Medrano:** tres encabezados editoriales afinados para orientar la comunicación profesional, sin alterar estructura visual.
+- **Adán Reymundo:** atribución del lettering ajustada a «adaptado» y textos internos de estado de repositorio retirados del caso público.
+- **Metalar, Cocineros Tucumanos, Liverpool, CPA, Cristo B/Puerto Argentino y Super Ya:** se retiraron observaciones internas de seguimiento de las páginas públicas, sustituyéndolas por declaraciones precisas de alcance y autoría. Permanecen las advertencias necesarias sobre conceptos, piezas históricas, renders y propuestas no implementadas.
+- **TGT, Terzo, Concilio & Sarralde, Vigamix:** revisión estática y de estructura, sin cambios de composición ni contenido que no pudieran justificarse.
+- Las 12 páginas desde TGT a Super Ya tienen **una sola imagen real por caso en el HTML**. Esto es un bloqueante editorial para una presentación premium: la solución es seleccionar originales comprobados, no agregar diagramas sintéticos ni más prosa.
+- **NO probado:** render real en navegador a 360/390/768/1440px, interacción directa en dispositivos, validación estética de imágenes, reproducción de video ni permisos individuales de publicación de cada recurso.
+- **Publicación:** `main` y GitHub Pages no modificados; no hubo borrado ni fusión de ramas.
+
+**Registro de cambios:** commit `6483bccb2625dfe322acc6947d543a5437bf853a` aplicado en `portfolio-preparacion`. Auditoría parcial, no aprobación final de publicación.
