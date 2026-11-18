@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111719">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Vigamix — identidad visual y diseño web para soluciones de unión de vigas y estructuras de soporte. Caso de estudio del portfolio de Luis Germán Parisotto.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vigamix — Diseño de marca y experiencia web | Luis Germán Parisotto">
+<meta property="og:description" content="Una comunicación clara para un sistema de construcción: marca, organización de productos y prototipo web.">
+<meta property="og:image" content="https://parisluis.github.io/portfolio-luis-parisotto/assets/vigamix/identidad.webp">
+<title>Vigamix — Identidad y diseño web | Luis Germán Parisotto</title>
+<link rel="icon" href="assets/seo/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/vigamix/identidad.webp" fetchpriority="high">
+<style>
+:root{--bg:#111719;--surface:#192225;--surface2:#243136;--line:#3d4e51;--text:#f3f1e9;--muted:#b7c4c4;--accent:#bad7cf;--max:1220px}
+*,*:before,*:after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.7 "DM Sans",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+img{display:block;max-width:100%;height:auto}
+h1,h2,h3,p,figure{margin:0}
+h1,h2,h3{font:800 40px/.96 "Barlow Condensed",Impact,sans-serif;text-transform:uppercase}
+em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:none}
+.wrap{width:min(calc(100% - 104px),var(--max));margin-inline:auto}
+.skip{position:absolute;top:-100px;left:10px;padding:11px;background:#fff;color:#000;z-index:10}.skip:focus{top:10px}
+.header{min-height:92px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.monogram{font:900 33px/1 "Barlow Condensed",sans-serif;letter-spacing:-.05em}.monogram span{color:var(--accent)}
+.monogram small{display:block;color:var(--muted);font:700 9px/1.7 "DM Sans",sans-serif;letter-spacing:.16em}
+.header nav{display:flex;gap:30px}.header nav a{font-size:10px;letter-spacing:.13em;font-weight:700;color:var(--muted)}
+.all-projects{border:1px solid #829b9b;padding:12px 17px;border-radius:50px;white-space:nowrap;font-size:10px;letter-spacing:.12em;font-weight:700}
+.all-projects:hover{background:var(--accent);color:var(--bg)}
+.eyebrow,.index,.micro{font-size:11px;letter-spacing:.16em;font-weight:700;text-transform:uppercase}
+.eyebrow{color:var(--accent);display:flex;gap:14px;align-items:center}.eyebrow:before{content:"";display:block;width:30px;height:2px;background:var(--accent)}
+.hero{padding:clamp(70px,9vw,139px) 0 clamp(84px,10vw,140px)}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(38px,6vw,92px);align-items:center}
+.hero h1{font-size:clamp(100px,14vw,210px);letter-spacing:-.055em;margin:20px 0 25px}
+.hero h1 span{color:var(--accent)}
+.hero-claim{font:500 clamp(32px,4.5vw,63px)/1.16 "Playfair Display",Georgia,serif;letter-spacing:-.025em}
+.hero-claim em{color:var(--accent)}
+.hero-intro{color:var(--muted);max-width:550px;margin-top:27px;line-height:1.85}
+.explore{display:inline-flex;align-items:center;gap:14px;margin-top:40px;font-size:10px;letter-spacing:.15em;font-weight:800}
+.explore span{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--accent);border-radius:50%;font-size:18px;color:var(--accent)}
+.hero-image{border:1px solid var(--line);background:var(--surface);padding:clamp(22px,3.3vw,48px);min-width:0}
+.hero-image img{width:100%;max-height:530px;object-fit:contain;aspect-ratio:645/617}
+.caption{font-size:10px;letter-spacing:.14em;font-weight:700;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin-top:20px;line-height:1.6}
+.features{background:var(--surface);border-block:1px solid var(--line)}
+.features .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.features .grid>div{padding:29px 20px;border-right:1px solid var(--line)}.features .grid>div:last-child{border:0}
+.features span{display:block;color:var(--accent);font-size:10px;letter-spacing:.16em;font-weight:700;margin-bottom:8px}
+.features strong{font-size:14px;line-height:1.5;font-weight:600}
+.section{border-bottom:1px solid var(--line);padding:clamp(90px,12vw,158px) 0}
+.section-head{display:grid;grid-template-columns:.45fr 1.55fr;gap:clamp(36px,7vw,105px)}
+.index{color:var(--accent);padding-top:9px}
+.section-head h2{font-size:clamp(52px,7.2vw,102px);letter-spacing:-.036em}
+.section-head h2 em{color:var(--accent)}
+.section-head p{color:var(--muted);line-height:1.85;max-width:715px;margin-top:27px}
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,3.5vw,50px);margin-top:72px}
+.pillars article{border-top:2px solid #94bfb4;padding-top:29px}
+.pillars span{font-size:11px;letter-spacing:.16em;font-weight:700;color:var(--accent)}
+.pillars h3{font-size:clamp(34px,3.6vw,51px);color:var(--text);margin:20px 0}
+.pillars p{color:var(--muted);font-size:14px;line-height:1.8}
+.cases{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:70px}
+.case{background:var(--surface);border:1px solid var(--line);padding:clamp(24px,2.9vw,39px);min-height:393px;display:flex;flex-direction:column;justify-content:space-between}
+.case small{font-size:10px;color:var(--accent);letter-spacing:.16em;font-weight:700}
+.case h3{font-size:clamp(41px,4.1vw,60px);letter-spacing:-.012em;margin:34px 0 23px}
+.case h3 em{color:var(--accent);font-size:.75em}
+.case p{color:var(--muted);font-size:13px;line-height:1.8}
+.case .end{color:var(--accent);font-size:10px;letter-spacing:.12em;font-weight:700;border-top:1px solid var(--line);padding-top:24px;margin-top:36px}
+.diagram{border:1px solid var(--line);background:var(--surface);padding:clamp(26px,5vw,57px);margin-top:62px}
+.diagram-head{display:flex;align-items:end;justify-content:space-between;gap:30px;padding-bottom:26px;border-bottom:1px solid var(--line)}
+.diagram h3{font-size:clamp(36px,4.5vw,65px)}
+.diagram .diagram-head p{font-size:11px;color:var(--muted);letter-spacing:.1em;max-width:230px;text-align:right}
+.map-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:26px}
+.map-grid div{border:1px solid #5c7578;padding:26px 16px;min-height:143px}
+.map-grid strong{display:block;color:var(--text);font:800 clamp(25px,2.6vw,39px)/1 "Barlow Condensed",sans-serif;text-transform:uppercase}
+.map-grid small{display:block;color:var(--muted);font-size:12px;margin-top:17px}
+.diagram-note{color:var(--muted);font-size:12px;margin-top:24px;line-height:1.75}
+.scope{margin-top:60px;padding:15px 0 15px 24px;border-left:2px solid var(--accent);font-size:14px;color:var(--muted);line-height:1.9;max-width:940px}
+.scope strong{color:var(--text)}
+.closing{padding:clamp(90px,11vw,160px) 0;display:flex;align-items:end;justify-content:space-between;gap:40px}
+.closing h2{font-size:clamp(62px,9vw,130px);letter-spacing:-.034em}
+.closing h2 em{color:var(--accent)}
+.closing p{max-width:580px;margin-top:25px;color:var(--muted);line-height:1.85}
+.footer{border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;letter-spacing:.12em;padding:31px 0 45px}
+@media(max-width:1010px){.features .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.features .grid>div:nth-child(2){border-right:0}.features .grid>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.cases{grid-template-columns:repeat(2,minmax(0,1fr))}.case:last-child{grid-column:1/-1;min-height:260px}.map-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.wrap{width:min(calc(100% - 42px),var(--max))}.header{min-height:76px}.header nav{display:none}.hero{padding:72px 0}.hero-grid,.section-head{grid-template-columns:1fr;gap:38px}.hero h1{font-size:clamp(91px,21vw,152px)}.hero-image{max-width:530px}.section-head h2{font-size:clamp(52px,11vw,84px)}.pillars,.cases{grid-template-columns:1fr}.case,.case:last-child{grid-column:auto;min-height:310px}.case h3{font-size:53px}.diagram-head{flex-direction:column;align-items:start}.diagram .diagram-head p{text-align:left}.closing{flex-direction:column;align-items:start}.footer{flex-direction:column;align-items:start}}
+@media(max-width:390px){.hero h1{font-size:clamp(75px,22vw,103px)}.features .grid>div{padding:20px 12px}.features strong{font-size:12px}.map-grid{grid-template-columns:1fr}.map-grid div{min-height:90px}.all-projects{font-size:9px;padding:9px 11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body id="inicio">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="header wrap">
+<a class="monogram" href="index.html" aria-label="Volver al portfolio">LG<span>P</span><small>PORTFOLIO PERSONAL</small></a>
+<nav aria-label="Secciones del proyecto"><a href="#desafio">DESAFÍO</a><a href="#formatos">FORMATOS</a><a href="#ux">ARQUITECTURA WEB</a></nav>
+<a class="all-projects" href="index.html#proyectos">TODOS LOS PROYECTOS ↗</a>
+</header>
+<main id="contenido">
+<section class="hero wrap" aria-labelledby="page-title">
+<div class="hero-grid">
+<div>
+<p class="eyebrow">CASO 12 / MARCA · DISEÑO DIGITAL · WEB</p>
+<h1 id="page-title">VIGAMIX<span>.</span></h1>
+<p class="hero-claim">Diseño para<br><em>explicar lo técnico.</em></p>
+<p class="hero-intro">Comunicación visual y propuesta web para un sistema de uniones metálicas utilizado en vigas y estructuras de soporte. Una identidad aplicada a contenidos técnicos, catálogo de productos y consultas comerciales.</p>
+<a class="explore" href="#desafio"><span aria-hidden="true">↓</span> EXPLORAR PROYECTO</a>
+</div>
+<figure class="hero-image"><img src="assets/vigamix/identidad.webp" width="645" height="617" fetchpriority="high" decoding="async" alt="Pieza de identidad visual correspondiente al proyecto Vigamix"><figcaption class="caption">VIGAMIX / PIEZA DE IDENTIDAD DEL PROYECTO</figcaption></figure>
+</div>
+</section>
+<div class="features"><div class="grid wrap" aria-label="Áreas de trabajo">
+<div><span>01 / DISCIPLINA</span><strong>Identidad visual</strong></div>
+<div><span>02 / DISCIPLINA</span><strong>Diseño web</strong></div>
+<div><span>03 / CONTENIDO</span><strong>Catálogo técnico</strong></div>
+<div><span>04 / OBJETIVO</span><strong>Consulta comercial</strong></div>
+</div></div>
+<section class="section wrap" id="desafio" aria-labelledby="desafio-title">
+<div class="section-head"><p class="index">00 / EL DESAFÍO</p><div><h2 id="desafio-title">CLARIDAD PARA<br><em>CONSTRUIR CONFIANZA.</em></h2><p>Una propuesta industrial necesita explicar qué ofrece, a qué aplicaciones está dirigida y cómo solicitar información. La documentación del proyecto incluye piezas gráficas y una web con inicio, navegación por productos y acceso a consultas.</p></div></div>
+<div class="pillars">
+<article><span>01 / MENSAJE</span><h3>QUÉ RESUELVE.</h3><p>Una presentación comprensible del sistema de uniones y de su uso en estructuras de soporte, sin reemplazar las especificaciones técnicas.</p></article>
+<article><span>02 / NAVEGACIÓN</span><h3>DÓNDE ENCONTRARLO.</h3><p>Productos diferenciados por familia para que el visitante pueda recorrer las opciones sin perder el contexto.</p></article>
+<article><span>03 / ACCIÓN</span><h3>CÓMO CONSULTAR.</h3><p>Accesos a información comercial desde la presentación general y las páginas de producto.</p></article>
+</div>
+</section>
+<section class="section wrap" id="formatos" aria-labelledby="formatos-title">
+<div class="section-head"><p class="index">01 / FORMATOS</p><div><h2 id="formatos-title">DE LA MARCA<br><em>A LA EXPERIENCIA.</em></h2><p>Una selección de los frentes trabajados en el proyecto: comunicación de marca, organización comercial de productos y adaptación de una interfaz web con componentes existentes.</p></div></div>
+<div class="cases">
+<article class="case"><div><small>01 / IDENTIDAD</small><h3>MARCA<br><em>APLICADA.</em></h3><p>Pieza visual para la presentación de Vigamix, pensada para asociar el nombre con una categoría de soluciones constructivas.</p></div><div class="end">IDENTIDAD · COMUNICACIÓN</div></article>
+<article class="case"><div><small>02 / PRODUCTOS</small><h3>CATÁLOGO<br><em>ORDENADO.</em></h3><p>Familias de vigas, montantes, columnas y herrajes, organizadas como secciones de consulta con descripciones y recursos visuales.</p></div><div class="end">ARQUITECTURA DE INFORMACIÓN</div></article>
+<article class="case"><div><small>03 / DIGITAL</small><h3>WEB<br><em>COMERCIAL.</em></h3><p>Archivos HTML de un sitio corporativo basado en Bootstrap, con portada, fichas de productos, navegación y llamados a contactar.</p></div><div class="end">ADAPTACIÓN WEB · CONTENIDO · UI</div></article>
+</div>
+</section>
+<section class="section wrap" id="ux" aria-labelledby="ux-title">
+<div class="section-head"><p class="index">02 / EXPERIENCIA WEB</p><div><h2 id="ux-title">EL PRODUCTO<br>TIENE <em>UN CAMINO.</em></h2><p>La documentación HTML permite reconstruir la organización del contenido. Este esquema es una representación editorial del sitio de archivo: no es una captura ni una pantalla reconstruida de su interfaz original.</p></div></div>
+<div class="diagram"><div class="diagram-head"><h3>PRODUCTOS / NAVEGACIÓN</h3><p>ESQUEMA DE SECCIONES DOCUMENTADAS</p></div>
+<div class="map-grid">
+<div><strong>VIGAS.</strong><small>Elementos horizontales de soporte</small></div>
+<div><strong>COLUMNAS.</strong><small>Elementos verticales y estructuras</small></div>
+<div><strong>MONTANTES.</strong><small>Componentes de paredes</small></div>
+<div><strong>HERRAJES.</strong><small>Uniones y elementos de ensamble</small></div>
+</div>
+<p class="diagram-note">En el archivo web, la navegación conecta la página principal con fichas de cada familia. El recorrido se orienta a comprender el producto y facilitar una consulta comercial.</p></div>
+<p class="scope"><strong>Alcance y atribución:</strong> trabajo de comunicación visual y adaptación de una propuesta web. Los archivos consultados emplean Bootstrap y componentes de plantilla; no se presenta como un desarrollo de software íntegramente original ni como una web pública actualmente operativa. Las afirmaciones técnicas, de certificación o patente del material comercial no fueron verificadas independientemente. El portfolio no publica información de contacto provisional del archivo original.</p>
+</section>
+<section class="closing wrap"><div><p class="index">12 / 17 · PORTFOLIO PERSONAL</p><h2>UN SISTEMA<br><em>PARA EXPLICAR.</em></h2><p>El valor del diseño también está en ordenar productos, traducir lenguaje técnico y conectar necesidades comerciales con una experiencia digital legible.</p></div><a class="all-projects" href="index.html#proyectos">VER MÁS PROYECTOS ↗</a></section>
+</main>
+<footer class="footer wrap"><span>LUIS GERMÁN PARISOTTO · PORTFOLIO 2026</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+</body>
+</html>
