@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (10):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html.
+**Existen (11):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html.
 
-**Faltan (7):** liverpool.html, adan-reymundo.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (6):** liverpool.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 7 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 6 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -80,3 +80,11 @@ Por tanto la portada tiene 7 enlaces internos a páginas inexistentes en la rama
 - Página provisional con relato de brochure, folletos técnicos y material audiovisual; esquema de contenido señalado explícitamente como ilustrativo y no como pieza original.
 - Sin reproducción de PDF completos ni inserción de videos no revisados. Verificar autoría, versiones y permisos antes de publicar muestras reales del folleto o video.
 - Próxima tarea prioritaria: exportar imágenes de páginas concretas del brochure final y validarlas con referencia al archivo fuente. Requiere QA de diseño móvil/escritorio.
+
+## Caso ADÁN REYMUNDO / SUSHI BOX — actualización 17/11/2026
+- Creada y verificada `adan-reymundo.html` en `portfolio-preparacion`. El índice ya apuntaba a esa ruta.
+- Único asset de este caso encontrado en el repo: `assets/adan/placa-2.webp`. No hay en el repositorio otras seis placas, el lettering final ni renders de packaging; no se inventó una galería.
+- Se revisó Google Drive con búsquedas «ADAN REYMUNDO», «Reymundo» y «Sushi Box», sin recuperar archivos de campaña específicos.
+- Caso editorial sobre apertura de 12/11/2026, lettering, bolsa y bandeja; no se presenta la fecha como campaña activa.
+- Las aplicaciones de packaging se describen como propuestas de diseño, sin afirmar fabricación, instalación o resultados de venta.
+- Falta integrar piezas finales y verificar créditos/fotografías. Pendiente prueba visual responsive en navegador.
