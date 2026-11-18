@@ -7,11 +7,11 @@ No publicar ni fusionar con `main` hasta terminar controles de enlaces, material
 ## Comprobación de navegación
 Revisados los 17 destinos HTML que enlaza la portada.
 
-**Existen (11):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html.
+**Existen (12):** 24-street.html, que-mila-bobo.html, jumpark.html, crazy-park.html, mr-johns.html, tgt.html, terzo.html, artist-medrano.html, concilio-sarralde.html, metalar.html, adan-reymundo.html, vigamix.html.
 
-**Faltan (6):** liverpool.html, vigamix.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
+**Faltan (5):** liverpool.html, cocineros-tucumanos.html, cpa.html, cristo-b.html, super-ya.html.
 
-Por tanto la portada tiene 6 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
+Por tanto la portada tiene 5 enlaces internos a páginas inexistentes en la rama de preparación. **Bloqueante para publicar.**
 
 ## Proyectos existentes
 - Qué Mila, Bobo!: identidad, propuesta y local real, carta, video inauguración. Comprobar contraste de concepto vs ejecución y atribuciones.
@@ -88,3 +88,12 @@ Por tanto la portada tiene 6 enlaces internos a páginas inexistentes en la rama
 - Caso editorial sobre apertura de 12/11/2026, lettering, bolsa y bandeja; no se presenta la fecha como campaña activa.
 - Las aplicaciones de packaging se describen como propuestas de diseño, sin afirmar fabricación, instalación o resultados de venta.
 - Falta integrar piezas finales y verificar créditos/fotografías. Pendiente prueba visual responsive en navegador.
+
+## Caso VIGAMIX — actualización 17/11/2026
+- Creada `vigamix.html` en rama `portfolio-preparacion`; recuperado el archivo con lectura del repositorio.
+- Asset existente comprobado: `assets/vigamix/identidad.webp` (645×617, 18.178 bytes) — única imagen disponible actualmente en GitHub.
+- En Drive se localizaron `vigamix.pdf`, `Vigamix.pdf` y archivos HTML `index.html`, `Vigas.html`, `Columnas.html`, `Montantes.html`, `Herrajes.html`; se revisaron archivos HTML y texto disponible del PDF de propuesta.
+- La web original usa Bootstrap y una hoja de estilos de plantilla; por honestidad de autoría, se presenta como adaptación y diseño web, no desarrollo íntegro desde cero.
+- La sección de arquitectura de información es un esquema textual propio, claramente rotulado como tal, no una captura del sitio original.
+- Pendiente para caso visual definitivo: exportar capturas reales de las páginas HTML y verificar activos originales, incluyendo CSS/JS/imagenes y referencias externas; probar vista móvil/escritorio.
+- No se publicaron enlaces a números de contacto o promociones de un archivo histórico; no afirmar patente, certificaciones o resultados comerciales sin verificación.
