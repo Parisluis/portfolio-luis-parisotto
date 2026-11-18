@@ -94,6 +94,22 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 @media(max-width:720px){.wrap{width:min(calc(100% - 42px),var(--max))}.header{min-height:76px}.header nav{display:none}.back{font-size:9px;padding:10px 12px}.hero{padding:70px 0}.hero-grid,.section-head,.editorial-head{grid-template-columns:1fr;gap:41px}.hero h1{font-size:clamp(100px,21vw,145px)}.hero-visual{max-width:550px}.section-head h2,.editorial h2{font-size:clamp(53px,11vw,84px)}.three,.cards{grid-template-columns:1fr}.card,.card:last-child{grid-column:auto;min-height:310px}.card h3{font-size:53px}.closing{flex-direction:column;align-items:start}.footer{flex-direction:column;align-items:start}}
 @media(max-width:390px){.hero h1{font-size:clamp(93px,24vw,114px)}.ribbon-grid>div{padding:20px 12px}.ribbon-grid strong{font-size:12px}.editorial-grid{grid-template-columns:1fr}.editorial-grid article{min-height:130px}.hero-visual{padding:15px}.figcaption{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Evidencias visuales originales: proporciones intactas, sin recortar el material. */
+.archive-gallery{padding:clamp(78px,10vw,132px) 0;border-bottom:1px solid var(--line)}
+.archive-gallery__intro{max-width:850px}
+.archive-gallery__intro h2{font-size:clamp(49px,7vw,94px);margin:24px 0;letter-spacing:-.03em}
+.archive-gallery__intro h2 em{color:var(--accent)}
+.archive-gallery__intro p:last-child{color:var(--muted);line-height:1.85;max-width:760px}
+.archive-gallery__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:clamp(22px,3.6vw,44px);margin-top:52px}
+.archive-gallery__item{margin:0;min-width:0}
+.archive-gallery__frame{background:var(--panel);border:1px solid var(--line);padding:clamp(12px,2.4vw,26px)}
+.archive-gallery__frame img{width:100%;height:auto;object-fit:contain;max-height:750px}
+.archive-gallery__item figcaption{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-top:13px;color:var(--muted);font-size:10px;letter-spacing:.08em;font-weight:700;line-height:1.6}
+.archive-gallery__item figcaption strong{color:var(--accent)}
+.archive-gallery__note{max-width:850px;margin-top:34px;color:var(--muted);font-size:12px;line-height:1.8}
+@media(max-width:680px){.archive-gallery__grid{grid-template-columns:1fr;gap:35px}.archive-gallery__frame img{max-height:none}.archive-gallery__intro h2{font-size:clamp(48px,11vw,78px)}}
+
 </style>
 </head>
 <body id="inicio">
@@ -147,11 +163,19 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 <article><span>03 / GRUPO</span><h3>LIMPIEZA.</h3><p>Hogar, cuidado de ropa e higiene.</p></article>
 <article><span>04 / CONVERSIÓN</span><h3>ACCIÓN.</h3><p>QR de pedidos, redes y mecánica promocional.</p></article>
 </div>
-<p class="editorial-note">Esquema editorial elaborado para este portfolio, no facsímil del diseño original. El sorteo y las promociones del documento corresponden a junio de 2022. No se incluyen precios históricos, enlaces de pedidos ni bases de participantes.</p>
+<p class="editorial-note">Esquema editorial elaborado para este portfolio, no facsímil del diseño original. El sorteo y las promociones del documento corresponden a junio de 2022. Las páginas originales que se muestran a continuación contienen precios y promociones históricos de 2022, sin validez actual; no se enlazan pedidos ni se publican datos de participantes.</p>
 </div>
 </section>
+<section class="archive-gallery wrap" id="originales" aria-labelledby="originales-title">
+<div class="archive-gallery__intro"><p class="index">MUESTRAS DOCUMENTALES / TRABAJOS ORIGINALES</p><h2 id="originales-title">EL TRABAJO<br><em>EN PIEZAS REALES.</em></h2><p>Selección de páginas y aplicaciones extraídas de los archivos originales de diseño. Se muestran como antecedentes profesionales, conservando su apariencia gráfica original.</p></div>
+<div class="archive-gallery__grid">
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/super-ya/superya-portada-junio-2022.webp" alt="Portada de revista promocional Super Ya de junio de 2022" loading="lazy" decoding="async" width="1260" height="1782"></div><figcaption><strong>01 / PORTADA</strong><span>REVISTA DE OFERTAS · JUNIO 2022</span></figcaption></figure>
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/super-ya/superya-catalogo-2022.webp" alt="Página original de catálogo de productos Super Ya 2022" loading="lazy" decoding="async" width="1260" height="1782"></div><figcaption><strong>02 / INTERIOR</strong><span>RETÍCULA DE PRODUCTOS Y PRECIOS</span></figcaption></figure>
+<figure class="archive-gallery__item"><div class="archive-gallery__frame"><img src="assets/super-ya/superya-gift-card-2022.webp" alt="Pliego de impresión de gift cards originales Super Ya" loading="lazy" decoding="async" width="1260" height="1782"></div><figcaption><strong>03 / APLICACIÓN</strong><span>GIFT CARD · PLIEGO IMPRESO</span></figcaption></figure>
+</div><p class="archive-gallery__note">Material de archivo: fechas, precios, promociones, direcciones, redes sociales y códigos QR impresos pertenecen a ediciones anteriores y no deben interpretarse como vigentes. Las muestras no implican autoría de logotipos ni resultados comerciales.</p>
+</section>
 <section class="section wrap" id="autoria" aria-labelledby="autoria-title">
-<div class="section-head"><p class="index">03 / ALCANCE Y AUTORÍA</p><div><h2 id="autoria-title">DISEÑO<br><em>Y APLICACIONES.</em></h2><p>El proyecto se presenta desde su producción gráfica: tratamiento editorial de productos, piezas comerciales y recursos de impresión. La selección muestra una pieza gráfica del proyecto y explica las decisiones editoriales aplicadas a la revista y la gift card.</p></div></div>
+<div class="section-head"><p class="index">03 / ALCANCE Y AUTORÍA</p><div><h2 id="autoria-title">DISEÑO<br><em>Y APLICACIONES.</em></h2><p>El proyecto se presenta desde su producción gráfica: tratamiento editorial de productos, piezas comerciales y recursos de impresión. La selección reúne muestras originales de la revista de ofertas y del pliego de gift cards, para apreciar la diagramación real y sus aplicaciones impresas.</p></div></div>
 <p class="role"><strong>Alcance:</strong> diseño editorial comercial para una revista promocional y materiales impresos. Las promociones y el sorteo de junio de 2022 se presentan como antecedentes históricos. La identidad original, la operación comercial y los resultados de ventas no se atribuyen al diseñador sin documentación.</p>
 </section>
 <section class="closing wrap"><div><p class="index">17 / 17 · PORTFOLIO PERSONAL</p><h2>DISEÑO<br><em>QUE INFORMA.</em></h2><p>Una muestra de diseño comercial, donde la jerarquía, la organización de contenido y el contacto con el público forman parte del resultado visual.</p></div><a class="back" href="index.html#proyectos">VER MÁS PROYECTOS ↗</a></section>
