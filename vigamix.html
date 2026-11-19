@@ -91,6 +91,24 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 @media(max-width:720px){.wrap{width:min(calc(100% - 42px),var(--max))}.header{min-height:76px}.header nav{display:none}.hero{padding:72px 0}.hero-grid,.section-head{grid-template-columns:1fr;gap:38px}.hero h1{font-size:clamp(91px,21vw,152px)}.hero-image{max-width:530px}.section-head h2{font-size:clamp(52px,11vw,84px)}.pillars,.cases{grid-template-columns:1fr}.case,.case:last-child{grid-column:auto;min-height:310px}.case h3{font-size:53px}.diagram-head{flex-direction:column;align-items:start}.diagram .diagram-head p{text-align:left}.closing{flex-direction:column;align-items:start}.footer{flex-direction:column;align-items:start}}
 @media(max-width:390px){.hero h1{font-size:clamp(75px,22vw,103px)}.features .grid>div{padding:20px 12px}.features strong{font-size:12px}.map-grid{grid-template-columns:1fr}.map-grid div{min-height:90px}.all-projects{font-size:9px;padding:9px 11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Muestras originales: preservar la pieza completa y diferenciar render de fotografía. */
+.project-gallery{padding:clamp(80px,10vw,138px) 0;border-bottom:1px solid var(--line)}
+.project-gallery__intro{max-width:900px}
+.project-gallery__intro h2{font-size:clamp(48px,7vw,96px);letter-spacing:-.035em;margin:25px 0}
+.project-gallery__intro h2 em{color:var(--gold,var(--accent))}
+.project-gallery__intro p:last-child{color:var(--muted);max-width:785px;line-height:1.88}
+.project-gallery__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(22px,3.4vw,45px);margin-top:54px;align-items:start}
+.project-gallery__item{min-width:0;margin:0}
+.project-gallery__item--wide{grid-column:1/-1;max-width:100%}
+.project-gallery__frame{border:1px solid var(--line);background:var(--panel,var(--surface));padding:clamp(12px,2.4vw,27px)}
+.project-gallery__frame img{width:100%;height:auto;max-height:760px;object-fit:contain;margin-inline:auto}
+.project-gallery__item--wide .project-gallery__frame img{max-height:580px}
+.project-gallery__item figcaption{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:var(--muted);font-size:11px;line-height:1.7;margin-top:15px}
+.project-gallery__item figcaption strong{color:var(--gold,var(--accent));letter-spacing:.09em}
+.project-gallery__note{font-size:12px;line-height:1.8;color:var(--muted);max-width:900px;margin-top:30px}
+@media(max-width:680px){.project-gallery__grid{grid-template-columns:1fr;gap:32px}.project-gallery__item--wide{grid-column:auto}.project-gallery__intro h2{font-size:clamp(47px,11vw,76px)}.project-gallery__frame img{max-height:none}}
+
 </style>
 </head>
 <body id="inicio">
@@ -130,13 +148,21 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 <section class="section wrap" id="formatos" aria-labelledby="formatos-title">
 <div class="section-head"><p class="index">01 / FORMATOS</p><div><h2 id="formatos-title">DE LA MARCA<br><em>A LA EXPERIENCIA.</em></h2><p>Una selección de los frentes trabajados en el proyecto: comunicación de marca, organización comercial de productos y adaptación de una interfaz web con componentes existentes.</p></div></div>
 <div class="cases">
-<article class="case"><div><small>01 / IDENTIDAD</small><h3>MARCA<br><em>APLICADA.</em></h3><p>Pieza visual para la presentación de Vigamix, pensada para asociar el nombre con una categoría de soluciones constructivas.</p></div><div class="end">IDENTIDAD · COMUNICACIÓN</div></article>
+<article class="case"><div><small>01 / IDENTIDAD</small><h3>MARCA<br><em>APLICADA.</em></h3><p>Pieza visual e isologo del archivo Vigamix, asociados a un sistema de uniones metálicas y soluciones constructivas. La autoría específica del logotipo queda pendiente de confirmar.</p></div><div class="end">IDENTIDAD · COMUNICACIÓN</div></article>
 <article class="case"><div><small>02 / PRODUCTOS</small><h3>CATÁLOGO<br><em>ORDENADO.</em></h3><p>Familias de vigas, montantes, columnas y herrajes, organizadas como secciones de consulta con descripciones y recursos visuales.</p></div><div class="end">ARQUITECTURA DE INFORMACIÓN</div></article>
 <article class="case"><div><small>03 / DIGITAL</small><h3>WEB<br><em>COMERCIAL.</em></h3><p>Archivos HTML de un sitio corporativo basado en Bootstrap, con portada, fichas de productos, navegación y llamados a contactar.</p></div><div class="end">ADAPTACIÓN WEB · CONTENIDO · UI</div></article>
 </div>
 </section>
+<section class="project-gallery wrap" id="originales" aria-labelledby="originales-title">
+<div class="project-gallery__intro"><p class="index">MATERIAL ORIGINAL / MARCA Y WEB</p><h2 id="originales-title">IDENTIDAD<br><em>Y NAVEGACIÓN.</em></h2><p>El isologo aportado y las capturas de una versión del sitio permiten ver la aplicación visual de la marca, la jerarquía de contenidos y la presentación de familias de productos en una interfaz real de archivo.</p></div>
+<div class="project-gallery__grid">
+<figure class="project-gallery__item"><div class="project-gallery__frame"><img src="assets/vigamix/isologo-original.webp" width="1600" height="1097" loading="lazy" decoding="async" alt="Isologo Vigamix para sistema de uniones de vigas y estructuras de soporte, en verde y gris"></div><figcaption><strong>01 / IDENTIDAD</strong><span>ISOLOGO ORIGINAL APORTADO · AUTORÍA POR CONFIRMAR</span></figcaption></figure>
+<figure class="project-gallery__item"><div class="project-gallery__frame"><img src="assets/vigamix/web-portada-original.webp" width="677" height="620" loading="lazy" decoding="async" alt="Captura de la portada de la web histórica Vigamix con estructura metálica y presentación de producto"></div><figcaption><strong>02 / PÁGINA PRINCIPAL</strong><span>CAPTURA WEB DE ARCHIVO · VERSIÓN HISTÓRICA</span></figcaption></figure>
+<figure class="project-gallery__item project-gallery__item--wide"><div class="project-gallery__frame"><img src="assets/vigamix/web-productos-original.webp" width="677" height="410" loading="lazy" decoding="async" alt="Captura original de la sección de productos Vigamix con montantes, columnas y vigas"></div><figcaption><strong>03 / CATEGORÍAS</strong><span>ORGANIZACIÓN DEL CATÁLOGO TÉCNICO · CAPTURA HISTÓRICA</span></figcaption></figure>
+</div><p class="project-gallery__note">Estas capturas documentan una propuesta web de época; no demuestran que el sitio esté actualmente activo ni verifican por sí mismas patentes o certificaciones. Las fotografías rotuladas «Vigamix Construcciones» se mantienen fuera de este caso hasta comprobar si pertenecen al mismo proyecto y confirmar su autoría.</p>
+</section>
 <section class="section wrap" id="ux" aria-labelledby="ux-title">
-<div class="section-head"><p class="index">02 / EXPERIENCIA WEB</p><div><h2 id="ux-title">EL PRODUCTO<br>TIENE <em>UN CAMINO.</em></h2><p>La documentación HTML permite reconstruir la organización del contenido. Este esquema es una representación editorial del sitio de archivo: no es una captura ni una pantalla reconstruida de su interfaz original.</p></div></div>
+<div class="section-head"><p class="index">02 / EXPERIENCIA WEB</p><div><h2 id="ux-title">EL PRODUCTO<br>TIENE <em>UN CAMINO.</em></h2><p>La documentación HTML permite revisar la organización del contenido. Las capturas originales se presentan arriba; este esquema complementario representa las familias de productos, no pretende sustituir la interfaz.</p></div></div>
 <div class="diagram"><div class="diagram-head"><h3>PRODUCTOS / NAVEGACIÓN</h3><p>ESQUEMA DE SECCIONES DOCUMENTADAS</p></div>
 <div class="map-grid">
 <div><strong>VIGAS.</strong><small>Elementos horizontales de soporte</small></div>
