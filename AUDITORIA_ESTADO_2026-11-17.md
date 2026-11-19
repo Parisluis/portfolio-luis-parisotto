@@ -188,3 +188,15 @@ Por tanto los 17 destinos de la portada tienen archivos creados en la rama de pr
 - Verificado que las 3 rutas de imagen usadas por el caso existen en el árbol del commit `61c368a47ed0036e83931abaf2ca59961768d70f`; no se alteró el render de la portada aprobado.
 - Pendiente: comprobar en navegador responsive, verificar si la muestra histórica de la web aporta valor editorial suficiente frente al brochure, y seleccionar páginas finales autorizadas del brochure 2013 para reforzar autoría gráfica.
 - Los archivos originales del Drive no se modificaron. `main` y la publicación siguen intactos.
+
+
+## Integración visual de LIVERPOOL y VIGAMIX — 19/11/2026
+
+- Se recibieron fotografías adicionales de Liverpool Rooftop y piezas de Vigamix del usuario. También se recuperaron de Drive `LiverMenu.pdf` (5 páginas, edición histórica 2022) y `Liverpool Render Carta.pdf` (presentación original de renders, 2024).
+- **Liverpool:** se integraron cinco imágenes nuevas en `liverpool.html`: dos registros exteriores de archivo, un extracto de renders y dos páginas reales de la carta `Liverpool News`. Junto con la portada anterior, la página tiene seis imágenes.
+- Se diferencian fotografías del local, renders de propuesta y páginas originales. La autoría de fotografías externas no está acreditada; no se adjudican a Luis ni se afirma ejecución de arquitectura por su parte. Pendiente comprobar permiso de reproducción de las fotos antes de publicación definitiva.
+- **Vigamix:** se integraron el isologo aportado y dos capturas de la web histórica en `vigamix.html`, con cuatro imágenes incluyendo la portada anterior. La adaptación web se identifica como un trabajo sobre componentes existentes; no se afirma funcionamiento actual ni se verifican alegaciones de patente/certificaciones presentes en las imágenes.
+- **Separación importante:** se recibieron también seis piezas identificadas `VIGAMIX CONSTRUCCIONES` de arquitectura/interiores; no se subieron al repositorio ni se mezclaron con el caso de uniones metálicas, por falta de vínculo documental y autoría confirmados.
+- Verificación estática de las páginas después de la integración: todos los enlaces locales, CSS/JS y rutas de imágenes referenciadas por `liverpool.html` y `vigamix.html` existen en el árbol de la rama; un `h1` por página, `viewport` presente, y galería `#originales` en ambas.
+- PENDIENTE: prueba en navegador real a 360/390/768/1440 píxeles, control de contraste y recortes, y permiso de publicación de fotografías externas de Liverpool.
+- Rama exclusiva de trabajo `portfolio-preparacion`. No se tocó `main`, no se fusionó ni se modificó GitHub Pages. El enlace utilizado en los CV no cambió.
