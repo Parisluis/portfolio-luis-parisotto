@@ -18,3 +18,13 @@
 .hero h1 .muted-word{color:#a1a7ae;-webkit-text-stroke:0}
 .project-card.medrano>img{object-position:center 16%}
 .project-grid--archive .project-card.metalar>img{object-position:center 52%}
+
+/* Accesos por especialidad: navegación compacta sin alterar las tarjetas aprobadas. */
+.project-shortcuts{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 63px;padding:22px 0;border-block:1px solid var(--line)}
+.project-shortcuts__label{flex-basis:100%;font-size:10px;letter-spacing:.16em;color:#b6c0ca;font-weight:800;margin-bottom:6px}
+.project-shortcuts a{display:inline-flex;align-items:center;gap:15px;border:1px solid rgba(255,255,255,.27);border-radius:999px;padding:13px 17px;min-height:45px;color:var(--white);font-size:10px;font-weight:800;letter-spacing:.07em;transition:border-color .25s,background .25s,color .25s}
+.project-shortcuts a span{font-size:16px;color:var(--lime)}
+.project-shortcuts a:hover,.project-shortcuts a:focus-visible{background:var(--lime);color:var(--bg);border-color:var(--lime)}
+.project-shortcuts a:hover span,.project-shortcuts a:focus-visible span{color:var(--bg)}
+@media(max-width:700px){.project-shortcuts{margin-bottom:43px;padding:16px 0;gap:9px}.project-shortcuts a{font-size:9px;letter-spacing:.03em;padding:11px 13px;min-height:42px}}
+@media(max-width:430px){.project-shortcuts a{flex:1 1 calc(50% - 9px);justify-content:space-between;gap:8px}}
