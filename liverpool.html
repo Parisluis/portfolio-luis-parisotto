@@ -100,6 +100,24 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 @media(max-width:720px){.wrap{width:min(calc(100% - 42px),var(--max))}.header{min-height:76px}.header nav{display:none}.back{font-size:9px;padding:10px 12px}.hero{padding:72px 0}.hero-grid,.section-head,.evidence{grid-template-columns:1fr}.hero-grid{gap:43px}.hero h1{font-size:clamp(100px,19.8vw,147px)}.visual{max-width:640px}.section-head{gap:25px}.section-head h2{font-size:clamp(54px,11vw,85px)}.principles{grid-template-columns:1fr;gap:35px}.evidence article{min-height:285px}.news h2{font-size:clamp(64px,13vw,99px)}.newspaper .columns{grid-template-columns:1fr;gap:20px}.newspaper .columns article+article{border-left:0;border-top:1px solid #888c7c;padding:22px 0 0}.newspaper h3{font-size:clamp(57px,12vw,94px)}.close{flex-direction:column;align-items:start}.footer{flex-direction:column;align-items:start}}
 @media(max-width:390px){.hero h1{font-size:clamp(89px,22vw,112px)}.strip-grid div{padding:21px 12px}.strip-grid strong{font-size:12px}.news h2{font-size:58px}.newspaper .folio{font-size:8px;letter-spacing:.04em}.figcaption{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Muestras originales: preservar la pieza completa y diferenciar render de fotografía. */
+.project-gallery{padding:clamp(80px,10vw,138px) 0;border-bottom:1px solid var(--line)}
+.project-gallery__intro{max-width:900px}
+.project-gallery__intro h2{font-size:clamp(48px,7vw,96px);letter-spacing:-.035em;margin:25px 0}
+.project-gallery__intro h2 em{color:var(--gold,var(--accent))}
+.project-gallery__intro p:last-child{color:var(--muted);max-width:785px;line-height:1.88}
+.project-gallery__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(22px,3.4vw,45px);margin-top:54px;align-items:start}
+.project-gallery__item{min-width:0;margin:0}
+.project-gallery__item--wide{grid-column:1/-1;max-width:100%}
+.project-gallery__frame{border:1px solid var(--line);background:var(--panel,var(--surface));padding:clamp(12px,2.4vw,27px)}
+.project-gallery__frame img{width:100%;height:auto;max-height:760px;object-fit:contain;margin-inline:auto}
+.project-gallery__item--wide .project-gallery__frame img{max-height:580px}
+.project-gallery__item figcaption{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:var(--muted);font-size:11px;line-height:1.7;margin-top:15px}
+.project-gallery__item figcaption strong{color:var(--gold,var(--accent));letter-spacing:.09em}
+.project-gallery__note{font-size:12px;line-height:1.8;color:var(--muted);max-width:900px;margin-top:30px}
+@media(max-width:680px){.project-gallery__grid{grid-template-columns:1fr;gap:32px}.project-gallery__item--wide{grid-column:auto}.project-gallery__intro h2{font-size:clamp(47px,11vw,76px)}.project-gallery__frame img{max-height:none}}
+
 </style>
 </head>
 <body id="inicio">
@@ -137,7 +155,7 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 </div>
 </section>
 <section class="section wrap" id="soportes" aria-labelledby="soportes-title">
-<div class="section-head"><p class="index">01 / TRABAJOS</p><div><h2 id="soportes-title">DEL ESPACIO<br><em>AL PAPEL.</em></h2><p>Los archivos del proyecto incluyen una imagen de ambientación, documentación de render y versiones de la carta. La presentación separa claramente propuesta conceptual de material editorial; no afirma una ejecución física del espacio sin fotografías de obra.</p></div></div>
+<div class="section-head"><p class="index">01 / TRABAJOS</p><div><h2 id="soportes-title">DEL ESPACIO<br><em>AL PAPEL.</em></h2><p>Los archivos del proyecto incluyen una imagen de ambientación, documentación de render y versiones de la carta. La presentación separa claramente concepto, fotografías documentales del local y diseño editorial. Los registros fotográficos no certifican quién diseñó o ejecutó el espacio.</p></div></div>
 <div class="evidence">
 <article><div><small>01 / DISEÑO DE EXPERIENCIA</small><h3>AMBIENTACIÓN<br><em>CON IDENTIDAD.</em></h3><p>Propuesta de carácter visual para Liverpool Rooftop, con el ambiente como soporte de una experiencia reconocible.</p></div><p class="label">IMAGEN DE CONCEPTO / ARCHIVO VISUAL</p></article>
 <article><div><small>02 / DISEÑO EDITORIAL</small><h3>ALL BRITISH<br><em>MENU.</em></h3><p>Carta gastronómica en formato de periódico, con secciones de comidas y bebidas, referencias a figuras de la cultura y la música, y titulares propios del universo Liverpool.</p></div><p class="label">CARTA / EDICIONES HISTÓRICAS</p></article>
@@ -145,7 +163,7 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 </section>
 <section class="news" id="carta" aria-labelledby="carta-title">
 <div class="wrap">
-<div class="news-head"><div><p class="index">02 / LENGUAJE EDITORIAL</p><h2 id="carta-title">LIVERPOOL<br><em>NEWS.</em></h2></div><p class="news-intro">La carta de archivo se presenta como un diario: titulares, secciones, guiños a la cultura popular y un tono que refuerza el concepto de marca.</p></div>
+<div class="news-head"><div><p class="index">02 / LENGUAJE EDITORIAL</p><h2 id="carta-title">LIVERPOOL<br><em>NEWS.</em></h2></div><p class="news-intro">La carta original de archivo se presenta como un diario: titulares, secciones, guiños a la cultura popular y un tono que refuerza el concepto de marca. Sus páginas se reproducen como muestras históricas en la galería posterior.</p></div>
 <div class="newspaper" aria-label="Análisis tipográfico del concepto de carta">
 <div class="folio"><span>ALL BRITISH MENU</span><span>REFERENCIAS DE ARCHIVO · NO REPRODUCCIÓN FACSIMILAR</span></div>
 <h3>GOOD FOOD.<br>GOOD MUSIC.</h3>
@@ -158,6 +176,16 @@ em{font-family:"Playfair Display",Georgia,serif;font-weight:500;text-transform:n
 </div>
 <p class="news-note">Esta sección es un análisis visual escrito para el portfolio a partir del documento original «LiverMenu.pdf». No es una captura ni una reproducción exacta del diseño de la carta. Los precios históricos no se publican como actuales.</p>
 </div>
+</section>
+<section class="project-gallery wrap" id="originales" aria-labelledby="originales-title">
+<div class="project-gallery__intro"><p class="index">DOCUMENTACIÓN VISUAL / ARCHIVO DEL PROYECTO</p><h2 id="originales-title">DEL CONCEPTO<br><em>A LAS PIEZAS REALES.</em></h2><p>Selección de registros del local, propuesta gráfica de ambientación y páginas de la carta editorial original. Se distinguen fotografías de referencia, renders y diseño impreso.</p></div>
+<div class="project-gallery__grid">
+<figure class="project-gallery__item"><div class="project-gallery__frame"><img src="assets/liverpool/fachada-archivo.webp" width="801" height="1200" loading="lazy" decoding="async" alt="Fotografía nocturna del frente de Liverpool Rooftop con cartelería iluminada"></div><figcaption><strong>01 / LOCAL REAL</strong><span>FACHADA · FOTOGRAFÍA DE ARCHIVO, AUTORÍA NO VERIFICADA</span></figcaption></figure>
+<figure class="project-gallery__item"><div class="project-gallery__frame"><img src="assets/liverpool/exterior-archivo.webp" width="452" height="678" loading="lazy" decoding="async" alt="Registro exterior nocturno del frente de Liverpool Rooftop con visitantes"></div><figcaption><strong>02 / EXPERIENCIA</strong><span>EXTERIOR · REGISTRO DOCUMENTAL DE TERCEROS</span></figcaption></figure>
+<figure class="project-gallery__item project-gallery__item--wide"><div class="project-gallery__frame"><img src="assets/liverpool/renders-editorial-2024.webp" width="1255" height="722" loading="lazy" decoding="async" alt="Fragmento del documento de propuesta Liverpool: tres renders de ambientación y tratamiento visual interior"></div><figcaption><strong>03 / PROPUESTA GRÁFICA</strong><span>EXTRACTO DE PRESENTACIÓN 2024 · RENDERS, NO FOTOGRAFÍAS DE OBRA</span></figcaption></figure>
+<figure class="project-gallery__item"><div class="project-gallery__frame"><img src="assets/liverpool/carta-portada-2022.webp" width="1390" height="1965" loading="lazy" decoding="async" alt="Primera página del diseño original de carta Liverpool News, con formato de periódico y secciones gastronómicas"></div><figcaption><strong>04 / DISEÑO EDITORIAL</strong><span>LIVERPOOL NEWS · CARTA 2022 / PÁGINA 1</span></figcaption></figure>
+<figure class="project-gallery__item"><div class="project-gallery__frame"><img src="assets/liverpool/carta-interior-2022.webp" width="1390" height="1965" loading="lazy" decoding="async" alt="Segunda página de la carta original Liverpool News, con diagramación en columnas y titulares"></div><figcaption><strong>05 / CONTINUIDAD EDITORIAL</strong><span>LIVERPOOL NEWS · CARTA 2022 / PÁGINA 2</span></figcaption></figure>
+</div><p class="project-gallery__note">Las fotografías documentan el contexto del local y no se atribuyen a Luis. Su procedencia y autorización para publicación definitiva deben comprobarse. Los renders se identifican como propuestas y los precios de la carta corresponden a archivos de 2022, no a ofertas vigentes.</p>
 </section>
 <section class="section wrap" id="atribucion" aria-labelledby="atribucion-title">
 <div class="section-head"><p class="index">03 / CONTEXTO Y AUTORÍA</p><div><h2 id="atribucion-title">MOSTRAR<br><em>EL TRABAJO REAL.</em></h2><p>El caso reúne propuesta visual de ambientación y materiales editoriales. Las piezas deben mostrarse con su estado real: render como concepto, carta como documento histórico. No se atribuye el desarrollo arquitectónico, la obra construida, las fotografías de terceros ni el diseño original de la marca sin documentación adicional.</p></div></div>
